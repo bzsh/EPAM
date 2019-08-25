@@ -1,5 +1,8 @@
 package by.etc.algoritm.array;
 
+/*Задана последовательность N вещественных чисел. Вычислить сумму чисел, порядковые номера которых
+являются простыми числами.*/
+
 public class TaskSix {
     public static void main(String[] args) {
         task(10);

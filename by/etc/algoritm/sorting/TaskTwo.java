@@ -1,5 +1,9 @@
 package by.etc.algoritm.sorting;
 
+/* Даны две последовательности
+. Образовать из них новую последовательность
+чисел так, чтобы она тоже была неубывающей. Примечание. Дополнительный массив не использовать.*/
+
 public class TaskTwo {
     public static void main(String[] args) {
         task();

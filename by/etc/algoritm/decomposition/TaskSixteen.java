@@ -9,7 +9,7 @@ public class TaskSixteen {
         task(4);
     }
 
-    private static void task( int n){
+    private static void task(int n) {
         int sum;
         int count;
 
@@ -22,7 +22,7 @@ public class TaskSixteen {
 
     private static int getSum(int n) {
         int start = (int) Math.pow(10, n - 1);
-        int end = (int)Math.pow(10, n);
+        int end = (int) Math.pow(10, n);
         int sum = 0;
 
         for (int i = start; i < end; i++) {

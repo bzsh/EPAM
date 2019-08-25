@@ -1,5 +1,8 @@
 package by.etc.algoritm.multidimensional;
 
+/* Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
+ */
+
 public class TaskOne {
     public static void main(String[] args) {
         task(10, 10);
@@ -24,7 +27,7 @@ public class TaskOne {
         System.out.println();
         for (int j = 0; j < arr[0].length; j += 2) {
             if (arr[0][j] > arr[arr.length - 1][j]) {
-                System.out.print(j+1 + ") ");
+                System.out.print(j + 1 + ") ");
                 for (int i = 0; i < arr.length; i++) {
                     System.out.print(arr[i][j] + "\t");
                 }

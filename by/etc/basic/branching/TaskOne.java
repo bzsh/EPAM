@@ -1,5 +1,8 @@
 package by.etc.basic.branching;
 
+/* Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли
+он прямоугольным.*/
+
 public class TaskOne {
 
     public static void main(String[] args) {

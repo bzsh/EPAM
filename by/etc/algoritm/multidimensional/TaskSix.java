@@ -1,5 +1,7 @@
 package by.etc.algoritm.multidimensional;
 
+/*Сформировать квадратную матрицу порядка n по заданному образцу(n - четное)*/
+
 public class TaskSix {
 
     public static void main(String[] args) {

@@ -13,12 +13,12 @@ public class TaskThirteen {
         printTwins(getArrOfPrimes(n));
     }
 
-    private static int[] getArrOfPrimes(int n){
+    private static int[] getArrOfPrimes(int n) {
         int[] primes;
         int count = 0;
         int dev = 0;
 
-        primes = new int[(2 * n - n + 1)/ 2];
+        primes = new int[(2 * n - n + 1) / 2];
 
         for (int i = n; i <= 2 * n; i++) {
             for (int j = 1; j <= i; j++) {
@@ -35,10 +35,10 @@ public class TaskThirteen {
         return primes;
     }
 
-    private static void printTwins(int[] primes){
+    private static void printTwins(int[] primes) {
         System.out.println("Пары из заданного промежутка : ");
-        for(int i = 1; i < primes.length; i++){
-            if(primes[i] != 0 && primes[i] == primes[i - 1] + 2){
+        for (int i = 1; i < primes.length; i++) {
+            if (primes[i] != 0 && primes[i] == primes[i - 1] + 2) {
                 System.out.print(primes[i - 1] + " и " + primes[i] + " ; ");
             }
         }

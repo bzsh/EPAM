@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует
+        все числа от 1 до введенного пользователем числа.*/
+
 public class TaskOne {
 
     public static void main(String[] args) throws IOException {

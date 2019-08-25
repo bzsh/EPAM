@@ -4,9 +4,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*В числовой матрице поменять местами два столбца любых столбца, т. е. все элементы одного столбца поставить
+на соответствующие им позиции другого, а его элементы второго переместить в первый. Номера столбцов вводит
+пользователь с клавиатуры.
+*/
+
 public class TaskEight {
 
-    public static void main(String[] args)throws IOException {
+    public static void main(String[] args) throws IOException {
         task(10);
     }
 
@@ -32,7 +37,7 @@ public class TaskEight {
             System.out.println();
         }
 
-        System.out.println("Введите номера 2х столбцов в пределах от 0 до " + (n-1));
+        System.out.println("Введите номера 2х столбцов в пределах от 0 до " + (n - 1));
         a = Integer.parseInt(reader.readLine());
         b = Integer.parseInt(reader.readLine());
         System.out.println();

@@ -1,5 +1,9 @@
 package by.etc.algoritm.multidimensional;
 
+/* Матрицу 10x20 заполнить случайными числами от 0 до 15. Вывести на экран саму матрицу и номера строк, в
+которых число 5 встречается три и более раз.
+*/
+
 public class TaskEleven {
     public static void main(String[] args) {
         task(10, 20);
@@ -36,7 +40,9 @@ public class TaskEleven {
                 index = i + 1;
                 System.out.print("\n строка номер: " + index + " имеет " + count + " элемнта равных 5");
                 count = 0;
-            }else { count = 0;}
+            } else {
+                count = 0;
+            }
         }
         System.out.print(found ? "." : " строк содержащих цифру 5 три и болле раз не найдено.");
     }

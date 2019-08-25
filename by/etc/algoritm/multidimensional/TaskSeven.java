@@ -1,5 +1,7 @@
 package by.etc.algoritm.multidimensional;
 
+/*Сформировать квадратную матрицу порядка N по правилу: */
+
 public class TaskSeven {
 
     public static void main(String[] args) {
@@ -12,8 +14,8 @@ public class TaskSeven {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length - i; j++) {
-                arr[i][j] = Math.sin((Math.pow(i,2) - Math.pow(j,2)) / n);
-                if(arr[i][j] > 0){
+                arr[i][j] = Math.sin((Math.pow(i, 2) - Math.pow(j, 2)) / n);
+                if (arr[i][j] > 0) {
                     count++;
                 }
             }
@@ -21,8 +23,8 @@ public class TaskSeven {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j] >= 0 ? " ": "");
-                System.out.format("%.1f",arr[i][j]);
+                System.out.print(arr[i][j] >= 0 ? " " : "");
+                System.out.format("%.1f", arr[i][j]);
                 System.out.print("\t");
             }
             System.out.println();

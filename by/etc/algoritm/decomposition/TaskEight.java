@@ -9,15 +9,15 @@ public class TaskEight {
         task(9);
     }
 
-    private static void task(int n){
-        int[]arr;
+    private static void task(int n) {
+        int[] arr;
 
         arr = getRandomArray(n);
         printArray(arr);
 
-        System.out.println(getSum(arr,1,3));
-        System.out.println(getSum(arr,3,5));
-        System.out.println(getSum(arr,4,6));
+        System.out.println(getSum(arr, 1, 3));
+        System.out.println(getSum(arr, 3, 5));
+        System.out.println(getSum(arr, 4, 6));
 
     }
 
@@ -39,7 +39,7 @@ public class TaskEight {
         return arr;
     }
 
-    private static void printArray(int[]arr){
+    private static void printArray(int[] arr) {
         System.out.println();
         for (int i : arr) {                   // печать массива
             System.out.print(i + " ");

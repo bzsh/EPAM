@@ -2,6 +2,8 @@ package by.etc.basic.branching;
 
 import static java.lang.Math.pow;
 
+/* Вычислить значение функции:*/
+
 public class TaskFive {
 
     public static void main(String[] args) {

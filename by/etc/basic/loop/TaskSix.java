@@ -1,5 +1,7 @@
 package by.etc.basic.loop;
 
+/* Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.*/
+
 public class TaskSix {
 
     public static void main(String[] args) {

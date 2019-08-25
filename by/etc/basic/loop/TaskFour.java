@@ -2,6 +2,10 @@ package by.etc.basic.loop;
 
 import java.math.BigInteger;
 
+/*
+ Составить программу нахождения произведения квадратов первых двухсот чисел.
+*/
+
 public class TaskFour {
 
     public static void main(String[] args) {

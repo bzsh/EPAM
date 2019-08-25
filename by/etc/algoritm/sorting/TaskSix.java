@@ -18,7 +18,7 @@ public class TaskSix {
         task(20);
     }
 
-    private static void task(int n){
+    private static void task(int n) {
         int[] arr = new int[n];
         int d = arr.length / 2;
 

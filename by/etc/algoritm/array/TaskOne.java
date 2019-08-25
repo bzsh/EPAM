@@ -1,5 +1,8 @@
 package by.etc.algoritm.array;
 
+/* В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
+ */
+
 public class TaskOne {
 
     public static void main(String[] args) {
@@ -7,16 +10,16 @@ public class TaskOne {
         task(4);
     }
 
-    private static void task(int k){
+    private static void task(int k) {
 
         int[] arr;
         int sum = 0;
 
-        arr = new int[]{1,23,52,76,57,65,43,34,46,68,46,47};
+        arr = new int[]{1, 23, 52, 76, 57, 65, 43, 34, 46, 68, 46, 47};
 
-        for(int i = 0; i < arr.length; i++ ){
+        for (int i = 0; i < arr.length; i++) {
 
-            if( arr[i] % k == 0) {
+            if (arr[i] % k == 0) {
                 sum += arr[i];
             }
         }

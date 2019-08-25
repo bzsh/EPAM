@@ -1,5 +1,9 @@
 package by.etc.algoritm.array;
 
+/*В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся число. Если таких
+чисел несколько, то определить наименьшее из них.
+*/
+
 public class TaskNine {
 
     public static void main(String[] args) {
@@ -29,7 +33,7 @@ public class TaskNine {
         for (int i = 0; i < arr.length; i++) { // узнаем число повторений путем деления значения
             if (arr[i] != 0) {
                 counter[i] = same[i] / arr[i]; // из same на значение из arr по общему индексу и записываем в массив с повторениями
-            }else {
+            } else {
                 counter[i] = 0;
             }
         }

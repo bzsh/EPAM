@@ -1,5 +1,7 @@
 package by.etc.basic.linear;
 
+/* Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.*/
+
 public class TaskOne {
 
     public static void main(String[] args) {

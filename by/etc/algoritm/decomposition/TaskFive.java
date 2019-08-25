@@ -21,8 +21,8 @@ public class TaskFive {
         printArray(arr);
         sort(arr);
 
-        while (flag || i == arr.length){
-            if(arr[i - 1] > arr[i]){
+        while (flag || i == arr.length) {
+            if (arr[i - 1] > arr[i]) {
                 number = arr[i];
                 System.out.println(" число меньше максимального элемента массива, \n" +
                         " и больше всех других элементов " + number);
@@ -33,7 +33,7 @@ public class TaskFive {
 
     }
 
-    private static void printArray(int[]arr){
+    private static void printArray(int[] arr) {
         System.out.println();
         for (int i : arr) {                   // печать массива
             System.out.print(i + " ");

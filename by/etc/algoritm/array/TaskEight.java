@@ -1,5 +1,11 @@
 package by.etc.algoritm.array;
 
+/*Дана последовательность целых чисел
+. Образовать новую последовательность, выбросив из
+исходной те члены, которые равны
+min( , , , ) a1 a2  an
+.*/
+
 public class TaskEight {
     public static void main(String[] args) {
         task(20);
@@ -25,7 +31,7 @@ public class TaskEight {
         System.out.println();
 
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i] != min){
+            if (arr[i] != min) {
                 arr2[i] = arr[i];
                 System.out.print(arr2[i] + " ");
             }

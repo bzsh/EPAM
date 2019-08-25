@@ -1,5 +1,8 @@
 package by.etc.algoritm.multidimensional;
 
+/*Задана матрица неотрицательных чисел. Посчитать сумму элементов в каждом столбце. Определить, какой
+столбец содержит максимальную сумму.*/
+
 public class TaskNine {
 
     public static void main(String[] args) {
@@ -30,7 +33,7 @@ public class TaskNine {
             for (int i = 0; i < arr.length; i++) {
                 temp += arr[i][j];
             }
-            if(temp > max){
+            if (temp > max) {
                 max = temp;
                 temp = 0;
                 index = j;

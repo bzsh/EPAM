@@ -14,7 +14,7 @@ public class TaskThree {
         return (Math.pow(a, 2) * Math.sqrt(3)) / 4;
     }
 
-    private static double hexagonArea(int a){
+    private static double hexagonArea(int a) {
         return 6 * triangleArea(a);
     }
 

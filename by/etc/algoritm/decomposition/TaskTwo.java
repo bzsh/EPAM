@@ -10,8 +10,8 @@ public class TaskTwo {
         System.out.println(nodOfFourNums(64, 32, 16, 8));
     }
 
-    private static int nodOfFourNums (int a, int b, int c, int d) { // метод для нахождения НОД 4х чисел
-        return nod(nod(nod(a,b), c), d);
+    private static int nodOfFourNums(int a, int b, int c, int d) { // метод для нахождения НОД 4х чисел
+        return nod(nod(nod(a, b), c), d);
     }
 
     private static int nod(int a, int b) {  // метод для нахождения НОД 2х чисел при помощи алгоритма Евклида НОК(a,b)

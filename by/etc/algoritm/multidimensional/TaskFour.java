@@ -1,8 +1,10 @@
 package by.etc.algoritm.multidimensional;
 
+/*4. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное)*/
+
 public class TaskFour {
     public static void main(String[] args) {
-        task(10,10);
+        task(10, 10);
     }
 
     private static void task(int m, int n) {

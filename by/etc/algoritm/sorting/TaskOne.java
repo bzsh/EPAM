@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*Заданы два одномерных массива с различным количеством элементов и натуральное число k. Объединить их в
+один массив, включив второй массив между k-м и (k+1) - м элементами первого, при этом не используя
+дополнительный массив.
+*/
+
 public class TaskOne {
     public static void main(String[] args) throws IOException {
         task();

@@ -1,42 +1,46 @@
 package by.etc.algoritm.decomposition;
 
+
 /*Найти все натуральные n-значные числа, цифры в которых образуют строго возрастающую
-        последовательность (например, 1234, 5789). Для решения задачи использовать декомпозицию.*/
+последовательность (например, 1234, 5789). Для решения задачи использовать декомпозицию.*/
 
 public class TaskFifteen {
 
-    /*public static void main(String[] args) {
+    private static int[] arr;
 
-        task(2);
-    }*/
-
-    private static void task(int n) {
-
-        getSequence(n);
+    public static void main(String[] args) {
+        getNumbers(5);
     }
 
-    public static void getSequence(int n) {
-
+    private static void getNumbers(int n) {
+        arr = new int[n];
+        genNum(0);
     }
 
-    private static void printNextDigit(int count, int i, int n) {
+    private static void genNum(int cnt) {
+        if (cnt == arr.length) {
+            printArr();
+            return;
+        }
 
-        if (count < 10) {
-            System.out.print(count + 1);
-            //printNextDigit(count + 1, i, n);
-        }
-    }
-}
-
-    /*int count = 1;
-        if (n > 1) {
-                for (int i = 1; i <= 10 - n; i++) {
-                while (count < n) {
-        printNextDigit(count, i, n);
-        count++;
-        }
-        }
+        if (cnt == 0) {
+            for (int i = 1; i <= 9; i++) {
+                arr[cnt] = i;
+                genNum(cnt + 1);
+            }
 
         } else {
-        System.out.println("Для создания последовательности аргумент должен быть n >= 2 ! ");
-        }*/
+            for (int i = arr[cnt - 1] + 1; i <= 9; i++) {
+                arr[cnt] = i;
+                genNum(cnt + 1);
+            }
+        }
+    }
+
+    private static void printArr() {
+        for (int i : arr) {
+            System.out.print(i);
+        }
+        System.out.println();
+    }
+}

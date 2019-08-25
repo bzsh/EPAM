@@ -1,5 +1,7 @@
 package by.etc.algoritm.multidimensional;
 
+/*Отсортировать строки матрицы по возрастанию и убыванию значений элементов.*/
+
 public class TaskTwelve {
     public static void main(String[] args) {
         task(10, 10);

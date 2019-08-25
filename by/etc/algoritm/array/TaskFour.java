@@ -1,10 +1,13 @@
 package by.etc.algoritm.array;
 
+/*Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и наименьший элементы*/
+
 public class TaskFour {
     public static void main(String[] args) {
         task(10);
     }
-    private static void task(int n){
+
+    private static void task(int n) {
         int arr[] = new int[n];
         int max;
         int min;
@@ -17,19 +20,19 @@ public class TaskFour {
             arr[i] = (int) ((Math.random() * 200) - 100);
         }
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
 
         max = arr[0];
         min = arr[0];
 
-        for(int i = 0; i < arr.length;i++){
-            if(arr[i] > max){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
                 max = arr[i];
                 indexMax = i;
             }
-            if(arr[i] < min){
+            if (arr[i] < min) {
                 min = arr[i];
                 indexMin = i;
             }
@@ -41,7 +44,7 @@ public class TaskFour {
 
         System.out.println();
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
     }

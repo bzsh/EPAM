@@ -9,8 +9,8 @@ public class TaskSix {
         task(15, 34, 27);
     }
 
-    private static void task(int a, int b, int c){
-        if(getNod(getNod(a, b), c) == 1){
+    private static void task(int a, int b, int c) {
+        if (getNod(getNod(a, b), c) == 1) {
             System.out.println("Числа взаимно простые.");
         } else {
             System.out.println("Числа взаимно не простые.");

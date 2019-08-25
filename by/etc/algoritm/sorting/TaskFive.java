@@ -41,11 +41,11 @@ public class TaskFive {
 
             index = binarySearch(arr, 0, i, arr[i]);   // узнаем индекс вставки
 
-                for (int j = i; j > index; j--) {      // продвигаем arr[i] к месту вставки в отсортированной части массива
-                    temp = arr[j];
-                    arr[j] = arr[j - 1];
-                    arr[j - 1] = temp;
-                }
+            for (int j = i; j > index; j--) {      // продвигаем arr[i] к месту вставки в отсортированной части массива
+                temp = arr[j];
+                arr[j] = arr[j - 1];
+                arr[j - 1] = temp;
+            }
 
         }
 
@@ -64,19 +64,19 @@ public class TaskFive {
 
         int mid;
 
-        if(start == end){
+        if (start == end) {
             return start;
         }
-            mid = start + ((end - start) / 2);            // рассчет центра массива
+        mid = start + ((end - start) / 2);            // рассчет центра массива
 
-            if( value > array[mid]){                      // если число в центре меньше проверяемого
+        if (value > array[mid]) {                      // если число в центре меньше проверяемого
 
-                return binarySearch(array, mid + 1, end, value); // то сдвигаем область поиска на правую половину массива и снова ищем
+            return binarySearch(array, mid + 1, end, value); // то сдвигаем область поиска на правую половину массива и снова ищем
 
-            } else if(value < array[mid]){ // иначе проверяем : если число в центре больше проверяемого
+        } else if (value < array[mid]) { // иначе проверяем : если число в центре больше проверяемого
 
-                    return binarySearch(array, start, mid, value); // то сдвигаем область поиска на левую половину массива и снова ищем
-                }
+            return binarySearch(array, start, mid, value); // то сдвигаем область поиска на левую половину массива и снова ищем
+        }
         return mid;
     }
 }

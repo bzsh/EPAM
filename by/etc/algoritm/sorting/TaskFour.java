@@ -4,13 +4,22 @@
 
 package by.etc.algoritm.sorting;
 
+/*Сортировка обменами. Дана последовательность чисел
+.Требуется переставить числа в
+порядке возрастания. Для этого сравниваются два соседних числа
+i i+1 a и a
+. Если
+ai  ai+1
+, то делается
+перестановка. Так продолжается до тех пор, пока все элементы не станут расположены в порядке возрастания.
+Составить алгоритм сортировки, подсчитывая при этом количества перестановок*/
 
 public class TaskFour {
     public static void main(String[] args) {
         task(30);
     }
 
-    private static void task(int n){
+    private static void task(int n) {
         int[] arr = new int[n];
         int count = 0;
 

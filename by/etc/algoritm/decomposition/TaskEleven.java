@@ -4,7 +4,7 @@ package by.etc.algoritm.decomposition;
 
 public class TaskEleven {
     public static void main(String[] args) {
-        task(12345,1234);
+        task(12345, 1234);
     }
 
     private static void task(int one, int two) {
@@ -13,7 +13,7 @@ public class TaskEleven {
 
         number = maxQuantityOfDigits(one, two);
 
-        if(number != one + two) {
+        if (number != one + two) {
             System.out.println("В числе " + number + " больше цифр чем в " + (number == one ? two : one));
         } else {
             System.out.println("В обоих числах одинаковое количество цифр.");
@@ -35,12 +35,13 @@ public class TaskEleven {
         int a = quantityOfDigits(one);
         int b = quantityOfDigits(two);
 
-        if(a != b) {
+        if (a != b) {
             if (a > b) {
                 return one;
             } else {
                 return two;
             }
-        } return one + two;
+        }
+        return one + two;
     }
 }

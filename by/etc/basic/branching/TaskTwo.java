@@ -1,5 +1,7 @@
 package by.etc.basic.branching;
 
+/* Найти max{min(a, b), min(c, d)}.*/
+
 public class TaskTwo {
 
     public static void main(String[] args) {

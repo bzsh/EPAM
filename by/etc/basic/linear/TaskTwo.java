@@ -1,5 +1,7 @@
 package by.etc.basic.linear;
 
+/* Вычислить значение выражения по формуле (все переменные принимают действительные значения):*/
+
 public class TaskTwo {
 
     public static void main(String[] args) {

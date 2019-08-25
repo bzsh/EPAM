@@ -1,5 +1,9 @@
 package by.etc.basic.loop;
 
+/*
+ Найти сумму квадратов первых ста чисел.
+*/
+
 public class TaskThree {
 
     public static void main(String[] args) {

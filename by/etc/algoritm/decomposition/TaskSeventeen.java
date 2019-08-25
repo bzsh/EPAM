@@ -9,7 +9,7 @@ public class TaskSeventeen {
         task(12345);
     }
 
-    private static void task(int n){
+    private static void task(int n) {
         System.out.println("Количество операций : " + getCount(n));
     }
 
@@ -22,9 +22,9 @@ public class TaskSeventeen {
         return sum;
     }
 
-    private static int getCount(int n){
+    private static int getCount(int n) {
         int count = 0;
-        while(n != 0){
+        while (n != 0) {
             n -= getSum(n);
             count++;
         }

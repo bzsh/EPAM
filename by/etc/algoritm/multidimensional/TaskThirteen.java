@@ -1,5 +1,7 @@
 package by.etc.algoritm.multidimensional;
 
+/* Отсотрировать стобцы матрицы по возрастанию и убыванию значений эементов.*/
+
 public class TaskThirteen {
 
     public static void main(String[] args) {

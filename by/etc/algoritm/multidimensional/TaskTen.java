@@ -1,5 +1,7 @@
 package by.etc.algoritm.multidimensional;
 
+/* Найти положительные элементы главной диагонали квадратной матрицы*/
+
 public class TaskTen {
 
     public static void main(String[] args) {
@@ -25,9 +27,9 @@ public class TaskTen {
 
         System.out.println("\nПоложительные элементы главной диагонали: ");
         for (int i = 0; i < arr.length; i++) {
-                if (arr[i][i] > 0){
-                    System.out.print(arr[i][i] + "\t");
-                }
+            if (arr[i][i] > 0) {
+                System.out.print(arr[i][i] + "\t");
+            }
 
         }
     }

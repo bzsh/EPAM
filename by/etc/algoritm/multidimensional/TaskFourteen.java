@@ -1,5 +1,8 @@
 package by.etc.algoritm.multidimensional;
 
+/* Сформировать случайную матрицу m x n, состоящую из нулей и единиц, причем в каждом столбце число
+единиц равно номеру столбца.*/
+
 public class TaskFourteen {
 
     public static void main(String[] args) {

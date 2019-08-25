@@ -1,5 +1,8 @@
 package by.etc.algoritm.array;
 
+/*Дан массив действительных чисел, размерность которого N. Подсчитать, сколько в нем отрицательных,
+положительных и нулевых элементов.*/
+
 public class TaskThree {
     public static void main(String[] args) {
         task(200);

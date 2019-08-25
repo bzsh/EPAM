@@ -55,7 +55,7 @@ public class TaskSeven {
                     }
                 } else if (arrOne[i - 1] > arrTwo[j] && i == 1) {
                     System.out.println("число " + arrTwo[j] + " надо вставить в первый массив перед индексом 0 ");
-                }else if(arrOne[i] < arrTwo[j] && i == arrOne.length - 1){
+                } else if (arrOne[i] < arrTwo[j] && i == arrOne.length - 1) {
                     System.out.println("число " + arrTwo[j] + " надо вставить после индекса " + i + " первого массива");
                 }
             }

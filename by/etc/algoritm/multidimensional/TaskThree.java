@@ -1,5 +1,7 @@
 package by.etc.algoritm.multidimensional;
 
+/*Дана матрица. Вывести k-ю строку и p-й столбец матрицы.*/
+
 public class TaskThree {
     public static void main(String[] args) {
         task(2, 4);

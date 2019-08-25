@@ -1,5 +1,7 @@
 package by.etc.basic.loop;
 
+/* Вычислить значения функции на отрезке [а,b] c шагом h:*/
+
 public class TaskTwo {
 
     public static void main(String[] args) {
